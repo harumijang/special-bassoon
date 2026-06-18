@@ -1,0 +1,17 @@
+name: Markdown renderer
+machineName: markdown-renderer
+status: true
+required: []
+props:
+  properties:
+    heading:
+      title: Heading
+      type: string
+      examples:
+        - Markdown preview
+    markdown:
+      title: Markdown
+      type: string
+      examples:
+        - "## Hello from marked\n\n- First item\n- Second item"
+slots: []

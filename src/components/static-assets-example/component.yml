@@ -1,0 +1,7 @@
+name: Static assets example
+machineName: static-assets-example
+status: true
+required: []
+props:
+  properties: []
+slots: []

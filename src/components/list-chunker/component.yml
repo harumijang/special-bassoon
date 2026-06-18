@@ -1,0 +1,22 @@
+name: List chunker
+machineName: list-chunker
+status: true
+required: []
+props:
+  properties:
+    title:
+      title: Title
+      type: string
+      examples:
+        - Chunked list
+    items:
+      title: Items
+      type: string
+      examples:
+        - Alpha, Beta, Gamma, Delta, Epsilon, Zeta
+    groupSize:
+      title: Group Size
+      type: integer
+      examples:
+        - 2
+slots: []

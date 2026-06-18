@@ -1,0 +1,12 @@
+name: Shared transitive example
+machineName: shared-transitive-example
+status: true
+required: []
+props:
+  properties:
+    title:
+      type: string
+      title: title
+      examples:
+        - shared transitive example
+slots: []

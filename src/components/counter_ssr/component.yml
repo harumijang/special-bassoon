@@ -1,0 +1,12 @@
+name: Counter SSR
+machineName: counter_ssr
+status: true
+required: []
+props:
+  properties:
+    label:
+      type: string
+      title: label
+      examples:
+        - SSR
+slots: []

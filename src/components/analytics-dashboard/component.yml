@@ -1,0 +1,12 @@
+name: Analytics dashboard
+machineName: analytics-dashboard
+status: true
+required: []
+props:
+  properties:
+    title:
+      type: string
+      title: title
+      examples:
+        - Hello
+slots: []

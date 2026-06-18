@@ -1,0 +1,7 @@
+name: Shared exported JSX example
+machineName: shared-exported-jsx-example
+status: true
+required: []
+props:
+  properties: []
+slots: []

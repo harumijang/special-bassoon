@@ -1,0 +1,17 @@
+name: Confetti button
+machineName: confetti-button
+status: true
+required: []
+props:
+  properties:
+    text:
+      title: Text
+      type: string
+      examples:
+        - Celebrate
+    note:
+      title: Note
+      type: string
+      examples:
+        - Hydrated client component using canvas-confetti.
+slots: []

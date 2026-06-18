@@ -1,0 +1,19 @@
+name: Recipe Demo
+machineName: recipe_demo
+status: true
+required: []
+props:
+  properties: []
+slots:
+  slot1:
+    title: slot1
+    examples:
+      - <h1>i am slot1</h1>
+  slot2:
+    title: slot2
+    examples:
+      - <h2>i am slot2</h2>
+  slot3:
+    title: slot3
+    examples:
+      - <h3>i am slot3</h3>

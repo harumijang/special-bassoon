@@ -1,0 +1,31 @@
+name: test1
+machineName: test1
+status: true
+required: []
+props:
+  properties:
+    title:
+      type: string
+      title: title
+      examples:
+        - Example title
+    description:
+      type: string
+      title: description
+      examples:
+        - Example description
+    badgeText:
+      type: string
+      title: badgeText
+      examples:
+        - Example badge
+    price:
+      type: number
+      title: price
+      examples:
+        - 13
+slots:
+  testSlot:
+    title: testSlot
+    examples:
+      - <h3>I am a test slot</h3>

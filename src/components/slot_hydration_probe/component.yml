@@ -1,0 +1,17 @@
+name: Slot Hydration Probe
+machineName: slot_hydration_probe
+status: true
+required:
+  - title
+props:
+  properties:
+    title:
+      type: string
+      title: Title
+      examples:
+        - Hydration slot probe
+slots:
+  content:
+    title: Content
+  note:
+    title: Note

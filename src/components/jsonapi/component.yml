@@ -1,0 +1,7 @@
+name: jsonapi
+machineName: jsonapi
+status: true
+required: []
+props:
+  properties: []
+slots: []

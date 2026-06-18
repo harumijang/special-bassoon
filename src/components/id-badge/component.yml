@@ -1,0 +1,17 @@
+name: Id badge
+machineName: id-badge
+status: true
+required: []
+props:
+  properties:
+    label:
+      title: Label
+      type: string
+      examples:
+        - Build ID
+    prefix:
+      title: Prefix
+      type: string
+      examples:
+        - run
+slots: []

@@ -1,0 +1,7 @@
+name: Shared asset example
+machineName: shared-asset-example
+status: true
+required: []
+props:
+  properties: []
+slots: []

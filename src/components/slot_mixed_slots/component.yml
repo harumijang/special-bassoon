@@ -1,0 +1,19 @@
+name: Slot Mixed Slots
+machineName: slot_mixed_slots
+status: true
+required:
+  - title
+props:
+  properties:
+    title:
+      type: string
+      title: Title
+      examples:
+        - Default plus named slot layout
+slots:
+  content:
+    title: Content
+  sidebar:
+    title: Sidebar
+  footer:
+    title: Footer

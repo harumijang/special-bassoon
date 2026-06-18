@@ -1,0 +1,12 @@
+name: harumi
+machineName: harumi
+status: true
+required: []
+props:
+  properties:
+    text:
+      type: string
+      title: text
+      examples:
+        - Soda
+slots: []

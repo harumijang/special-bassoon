@@ -1,0 +1,17 @@
+name: Relative time
+machineName: relative-time
+status: true
+required: []
+props:
+  properties:
+    label:
+      title: Label
+      type: string
+      examples:
+        - Published
+    isoDate:
+      title: Iso Date
+      type: string
+      examples:
+        - '2026-01-01T00:00:00Z'
+slots: []

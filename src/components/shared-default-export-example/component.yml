@@ -1,0 +1,7 @@
+name: Shared default export example
+machineName: shared-default-export-example
+status: true
+required: []
+props:
+  properties: []
+slots: []

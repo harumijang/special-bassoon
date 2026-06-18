@@ -1,0 +1,7 @@
+name: Ts counter
+machineName: ts_counter
+status: true
+required: []
+props:
+  properties: []
+slots: []

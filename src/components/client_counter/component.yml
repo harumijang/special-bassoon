@@ -1,0 +1,12 @@
+name: client counter
+machineName: client_counter
+status: true
+required: []
+props:
+  properties:
+    label:
+      type: string
+      title: label
+      examples:
+        - label
+slots: []

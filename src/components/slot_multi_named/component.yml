@@ -1,0 +1,19 @@
+name: Slot Multi Named
+machineName: slot_multi_named
+status: true
+required:
+  - title
+props:
+  properties:
+    title:
+      type: string
+      title: Title
+      examples:
+        - Multiple named slots region
+slots:
+  lead:
+    title: Lead
+  supporting:
+    title: Supporting
+  actions:
+    title: Actions

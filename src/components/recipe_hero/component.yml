@@ -1,0 +1,32 @@
+name: Recipe Hero
+machineName: recipe_hero
+status: true
+required: []
+props:
+  properties:
+    title:
+      type: string
+      title: title
+      examples:
+        - Buttermilk Cloud Pancakes
+    image:
+      type: object
+      $ref: json-schema-definitions://canvas.module/image
+      title: image
+      examples:
+        - src: >-
+            https://placehold.co/800x600@2x.png?alternateWidths=https%3A%2F%2Fplacehold.co%2F%7Bwidth%7Dx%7Bheight%7D%402x.png
+          alt: Example image placeholder
+          width: 800
+          height: 600
+    prepTime:
+      type: string
+      title: prepTime
+      examples:
+        - 10 MIN
+    cookTime:
+      type: string
+      title: cookTime
+      examples:
+        - 15 MIN
+slots: []

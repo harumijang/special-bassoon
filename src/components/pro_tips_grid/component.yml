@@ -1,0 +1,7 @@
+name: Pro Tips Grid
+machineName: pro_tips_grid
+status: true
+required: []
+props:
+  properties: []
+slots: []

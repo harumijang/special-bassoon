@@ -1,0 +1,12 @@
+name: Shared code example
+machineName: shared-code-example
+status: true
+required: []
+props:
+  properties:
+    title:
+      type: string
+      title: title
+      examples:
+        - ' lets go knicks!    '
+slots: []

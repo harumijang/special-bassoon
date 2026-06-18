@@ -1,0 +1,15 @@
+name: Slot Single Named
+machineName: slot_single_named
+status: true
+required:
+  - title
+props:
+  properties:
+    title:
+      type: string
+      title: Title
+      examples:
+        - Single named slot region
+slots:
+  rail:
+    title: Rail

@@ -1,0 +1,7 @@
+name: Ingredient Scaler
+machineName: ingredient_scaler
+status: true
+required: []
+props:
+  properties: []
+slots: []

@@ -1,0 +1,41 @@
+name: my hero
+machineName: my_hero
+status: true
+required: []
+props:
+  properties:
+    layout:
+      type: string
+      title: layout
+    preHeading:
+      type: string
+      title: preHeading
+      examples:
+        - pre heading
+    heading:
+      type: string
+      title: heading
+      examples:
+        - ADOPT A FRIEND
+    headingSize:
+      type: string
+      title: headingSize
+    text:
+      type: string
+      title: text
+    textColor:
+      type: string
+      title: textColor
+      examples:
+        - dark
+    backgroundImage:
+      type: object
+      $ref: json-schema-definitions://canvas.module/image
+      title: backgroundImage
+      examples:
+        - src: >-
+            https://placehold.co/800x600@2x.png?alternateWidths=https%3A%2F%2Fplacehold.co%2F%7Bwidth%7Dx%7Bheight%7D%402x.png
+          alt: Example image placeholder
+          width: 800
+          height: 600
+slots: []

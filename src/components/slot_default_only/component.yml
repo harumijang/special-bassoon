@@ -1,0 +1,15 @@
+name: Slot Default Only
+machineName: slot_default_only
+status: true
+required:
+  - title
+props:
+  properties:
+    title:
+      type: string
+      title: Title
+      examples:
+        - Default slot region
+slots:
+  content:
+    title: Content
